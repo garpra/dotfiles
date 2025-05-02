@@ -12,7 +12,6 @@
   // MenuBar Toogle [alt]
   "window.menuBarVisibility": "toggle",
   "window.customTitleBarVisibility": "auto",
-  "workbench.productIconTheme": "material-product-icons",
   "workbench.iconTheme": "material-icon-theme",
   "editor.wordWrap": "on",
   "zenMode.centerLayout": false,
@@ -57,5 +56,6 @@
   "terminal.integrated.fontSize": 13,
   "codeium.enableConfig": {
     "*": true
-  }
+  },
+  "workbench.productIconTheme": "material-product-icons"
 }

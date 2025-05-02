@@ -24,11 +24,11 @@ end
 
 alias sudo='sudo ' # Memastikan sudo tidak menghapus alias berikutnya
 alias c=clear
-alias vi=nvim
+alias mi=micro
 alias start='sudo systemctl start '
 alias stop='sudo systemctl stop '
 alias ff=fastfetch
-alias fishconfig='nvim ~/.config/fish/config.fish'
+alias fishconfig='micro ~/.config/fish/config.fish'
 
 # Sway
 alias getappid="swaymsg -t get_tree | jq '.. | select(.app_id?) | .app_id' | sort -u"
@@ -86,18 +86,6 @@ alias jctl="journalctl -p 3 -xb"
 alias clrjctl="sudo journalctl --vacuum-time=1s"
 
 # Dotfiles Management
-# Ganti folder sparse checkout (misalnya: hyprland, sway, xfce)
-function dotfiles-set
-    if test (count $argv) -eq 0
-        echo "Harap masukkan nama folder (misal: hyprland)"
-        return 1
-    end
-    cd ~/.dotfiles
-    git sparse-checkout set $argv
-    git checkout main
-    echo "Sekarang hanya folder '$argv' yang aktif."
-end
-
 # Tambahkan folder lain ke sparse checkout
 function dotfiles-add
     cd ~/.dotfiles
