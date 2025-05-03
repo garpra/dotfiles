@@ -2682,7 +2682,7 @@ button.combo:only-child:disabled {
   box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.05),
     0 4px 6px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.05),
     inset 0 1px rgba(233, 233, 237, 0.1);
-  background-color: #292e42;
+  background-color: #1A1B26;
   color: #e9e9ed;
   border: none;
 }
@@ -4182,11 +4182,11 @@ scrollbar > range > trough > slider {
 }
 
 scrollbar > range > trough > slider:hover {
-  background-color: #292e42;
+  background-color: #1A1B26;
 }
 
 scrollbar > range > trough > slider:active {
-  background-color: #292e42;
+  background-color: #1A1B26;
 }
 
 scrollbar > range > trough > slider:disabled {
@@ -5774,7 +5774,7 @@ window.dialog.message .dialog-action-area > button {
 }
 
 window.dialog.message.background {
-  background-color: #292e42;
+  background-color: #1A1B26;
 }
 
 window.dialog.message box.dialog-vbox.vertical {
@@ -5795,12 +5795,12 @@ window.dialog.message .titlebar {
   min-height: 24px;
   border-style: none;
   box-shadow: inset 0 1px rgba(233, 233, 237, 0.1);
-  background-color: #292e42;
+  background-color: #1A1B26;
   color: #e9e9ed;
 }
 
 window.dialog.message .titlebar:backdrop {
-  background-color: #292e42;
+  background-color: #1A1B26;
   color: rgba(233, 233, 237, 0.7);
 }
 
@@ -5838,7 +5838,7 @@ window.aboutdialog.background.csd scrolledwindow.frame > textview.view > text {
  * AdwMessageDialog *
  ********************/
 window.messagedialog {
-  background-color: #292e42;
+  background-color: #1A1B26;
   color: #e9e9ed;
   padding: 6px;
 }
@@ -6460,7 +6460,7 @@ colorchooser .popover.osd {
   box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.15),
     0 4px 3px 0 rgba(0, 0, 0, 0.18), 0 1px 6px 0 rgba(0, 0, 0, 0.12),
     inset 0 1px rgba(233, 233, 237, 0.1);
-  background-color: #292e42;
+  background-color: #1A1B26;
 }
 
 colorchooser .popover.osd:backdrop {
@@ -6750,7 +6750,7 @@ shortcut > .keycap {
   border: solid 1px rgba(233, 233, 237, 0.12);
   border-radius: 13px;
   box-shadow: inset 0 -2px rgba(233, 233, 237, 0.12);
-  background-color: #292e42;
+  background-color: #1A1B26;
   color: #e9e9ed;
   font-size: smaller;
 }
@@ -7213,7 +7213,7 @@ weekgrid.current {
 }
 
 popover.events {
-  background-color: #292e42;
+  background-color: #1A1B26;
   padding: 0;
 }
 
@@ -8892,7 +8892,7 @@ toast {
   padding: 6px;
   box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1), 0 4px 6px 0 rgba(0, 0, 0, 0.12),
     0 1px 10px 0 rgba(0, 0, 0, 0.1), inset 0 1px rgba(233, 233, 237, 0.1);
-  background-color: #292e42;
+  background-color: #1A1B26;
   color: #e9e9ed;
   border: none;
 }
@@ -9560,7 +9560,7 @@ leaflet.unfolded
   > range
   > trough
   > slider:hover {
-  background-color: #292e42;
+  background-color: #1A1B26;
 }
 
 .sidebar-pane
@@ -9601,7 +9601,7 @@ leaflet.unfolded
   > range
   > trough
   > slider:active {
-  background-color: #292e42;
+  background-color: #1A1B26;
 }
 
 .sidebar-pane
@@ -10559,7 +10559,7 @@ panelthemeselector checkbutton.dark:checked {
 
 themeselector checkbutton.follow,
 panelthemeselector checkbutton.follow {
-  background-image: linear-gradient(to bottom right, #e9e9ed 50%, #292e42 50%);
+  background-image: linear-gradient(to bottom right, #e9e9ed 50%, #1A1B26 50%);
 }
 
 themeselector checkbutton.light,
@@ -10569,7 +10569,7 @@ panelthemeselector checkbutton.light {
 
 themeselector checkbutton.dark,
 panelthemeselector checkbutton.dark {
-  background-color: #292e42;
+  background-color: #1A1B26;
 }
 
 themeselector checkbutton.theme-selector radio,
@@ -10870,7 +10870,7 @@ read if you used those and something break with a version upgrade you're on your
 @define-color card_shade_color rgba(233, 233, 237, 0.12);
 @define-color dialog_bg_color #323449;
 @define-color dialog_fg_color #e9e9ed;
-@define-color popover_bg_color #292e42;
+@define-color popover_bg_color #1A1B26;
 @define-color popover_fg_color #e9e9ed;
 @define-color shade_color rgba(233, 233, 237, 0.12);
 @define-color scrollbar_outline_color rgba(233, 233, 237, 0.12);

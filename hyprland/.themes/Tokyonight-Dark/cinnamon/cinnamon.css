@@ -383,7 +383,7 @@ StScrollBar StButton#hhandle:active {
 .popup-combo-menu .popup-menu-content {
   padding: 6px;
   border-radius: 12px;
-  background-color: #292e42;
+  background-color: #1A1B26;
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.35);
 }
 
@@ -1193,7 +1193,7 @@ StScrollBar StButton#hhandle:active {
 
 .switcher-list {
   color: #e9e9ed;
-  background-color: #292e42;
+  background-color: #1A1B26;
   border: none;
   border-radius: 12px;
   padding: 20px;
@@ -1916,7 +1916,7 @@ StScrollBar StButton#hhandle:active {
 .grouped-window-list-thumbnail-menu {
   padding: 6px;
   margin: 6px;
-  background-color: #292e42;
+  background-color: #1A1B26;
   border-radius: 12px;
   background-clip: border-box;
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.35);

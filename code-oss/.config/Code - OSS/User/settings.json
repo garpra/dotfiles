@@ -12,12 +12,10 @@
   // MenuBar Toogle [alt]
   "window.menuBarVisibility": "toggle",
   "window.customTitleBarVisibility": "auto",
-  "workbench.iconTheme": "material-icon-theme",
   "editor.wordWrap": "on",
   "zenMode.centerLayout": false,
   "breadcrumbs.enabled": false,
   "workbench.startupEditor": "none",
-  "workbench.sideBar.location": "right",
   "editor.fontWeight": 600,
   "editor.linkedEditing": true,
   "editor.tabSize": 2,
@@ -52,10 +50,7 @@
     "vscodevim.vim": 1
   },
   "editor.lineNumbers": "relative",
-  "workbench.activityBar.location": "top",
   "terminal.integrated.fontSize": 13,
-  "codeium.enableConfig": {
-    "*": true
-  },
-  "workbench.productIconTheme": "material-product-icons"
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.sideBar.location": "right"
 }
