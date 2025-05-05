@@ -23,7 +23,7 @@
  * Base States *
  ***************/
 .background {
-  background-color: #1a1b26;
+  background-color: #15161E;
   color: #e9e9ed;
 }
 
@@ -73,7 +73,7 @@ textview text {
 }
 
 textview border {
-  background-color: #1a1b26;
+  background-color: #15161E;
   color: rgba(233, 233, 237, 0.7);
 }
 
@@ -121,7 +121,7 @@ gridview > child box {
 
 coverflow cover {
   color: #e9e9ed;
-  background-color: #1a1b26;
+  background-color: #15161E;
   border: 1px solid black;
 }
 
@@ -240,7 +240,7 @@ popover.magnifier > arrow,
 popover.magnifier > contents,
 .osd {
   color: #e9e9ed;
-  background-color: #1a1b26;
+  background-color: #15161E;
   background-clip: padding-box;
   border-radius: 12px;
   border: none;
@@ -667,7 +667,7 @@ entry button.image-button {
 
 treeview entry.flat,
 treeview entry {
-  background-color: #1a1b26;
+  background-color: #15161E;
 }
 
 treeview entry.flat,
@@ -793,7 +793,7 @@ headerbar.selection-mode
 }
 
 placessidebar list.navigation-sidebar > row button.sidebar-button {
-  background-color: #1a1b26;
+  background-color: #15161E;
   color: #e9e9ed;
 }
 
@@ -1532,7 +1532,7 @@ button.pill {
 }
 
 button.card {
-  background-color: #1a1b26;
+  background-color: #15161E;
   background-clip: padding-box;
   font-weight: inherit;
   border: 1px solid rgba(233, 233, 237, 0.12);
@@ -2682,7 +2682,7 @@ button.combo:only-child:disabled {
   box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.05),
     0 4px 6px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.05),
     inset 0 1px rgba(233, 233, 237, 0.1);
-  background-color: #292e42;
+  background-color: #1A1B26;
   color: #e9e9ed;
   border: none;
 }
@@ -3128,7 +3128,7 @@ window > .titlebar headerbar:not(.flat) {
 }
 
 window.devel headerbar {
-  background: #1a1b26
+  background: #15161E
       cross-fade(10%-gtk-icontheme("system-run-symbolic"), image(transparent))
       90% 0/256px 256px no-repeat,
     linear-gradient(to right, transparent 65%, rgba(39, 161, 185, 0.1)),
@@ -3136,10 +3136,10 @@ window.devel headerbar {
 }
 
 window.devel headerbar:backdrop {
-  background: #1a1b26
+  background: #15161E
       cross-fade(10%-gtk-icontheme("system-run-symbolic"), image(transparent))
       90% 0/256px 256px no-repeat,
-    image(#1a1b26);
+    image(#15161E);
   /* background-color would flash */
 }
 
@@ -3382,7 +3382,7 @@ treeview.view header.button.dnd {
   border-color: rgba(233, 233, 237, 0.12);
   border-radius: 0;
   box-shadow: none;
-  background-color: #1a1b26;
+  background-color: #15161E;
   background-clip: border-box;
   color: #27a1b9;
 }
@@ -3401,12 +3401,12 @@ stack.view treeview.view {
  *********/
 menubar {
   padding: 0;
-  background-color: #1a1b26;
+  background-color: #15161E;
   color: #e9e9ed;
 }
 
 menubar:backdrop {
-  background-color: #1a1b26;
+  background-color: #15161E;
   color: rgba(233, 233, 237, 0.7);
 }
 
@@ -3514,7 +3514,7 @@ popover > arrow,
 popover > contents {
   transition: box-shadow 75ms cubic-bezier(0, 0, 0.2, 1);
   padding: 6px;
-  background-color: #1f2231;
+  background-color: #1A1B26;
   border-radius: 12px;
   color: #e9e9ed;
   border: none;
@@ -3560,7 +3560,7 @@ popover > contents > box > button {
 
 popover .view:not(:selected),
 popover toolbar {
-  background-color: #1f2231;
+  background-color: #1A1B26;
 }
 
 popover button,
@@ -3649,7 +3649,7 @@ popover.magnifier {
 }
 
 magnifier {
-  background-color: #1a1b26;
+  background-color: #15161E;
 }
 
 /*************
@@ -3685,7 +3685,7 @@ notebook > header > tabs > tab:disabled {
 
 tabbar tab:active,
 notebook > header > tabs > tab:active {
-  background-color: #1a1b26;
+  background-color: #15161E;
   color: #e9e9ed;
   box-shadow: none;
 }
@@ -4059,11 +4059,11 @@ tabbar:not(.inline) scrolledwindow.pinned undershoot {
 }
 
 tabbar:not(.inline) undershoot.left {
-  background: linear-gradient(to right, #1a1b26, rgba(0, 0, 0, 0) 20px);
+  background: linear-gradient(to right, #15161E, rgba(0, 0, 0, 0) 20px);
 }
 
 tabbar:not(.inline) undershoot.right {
-  background: linear-gradient(to left, #1a1b26, rgba(0, 0, 0, 0) 20px);
+  background: linear-gradient(to left, #15161E, rgba(0, 0, 0, 0) 20px);
 }
 
 tabbar:not(.inline) .needs-attention-left undershoot.left {
@@ -4085,18 +4085,18 @@ tabbar:not(.inline) .needs-attention-right undershoot.right {
 }
 
 tabbar:not(.inline) tabbox > background {
-  background-color: #1a1b26;
+  background-color: #15161E;
 }
 
 tabbar:not(.inline) .start-action,
 tabbar:not(.inline) .end-action {
-  background-color: alpha(#1a1b26, 0.6);
+  background-color: alpha(#15161E, 0.6);
   border-color: rgba(233, 233, 237, 0.12);
 }
 
 dnd tab {
   min-height: 24px;
-  background-color: #1a1b26;
+  background-color: #15161E;
   color: #e9e9ed;
   box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.09),
     0 2px 14px 3px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.05);
@@ -4143,7 +4143,7 @@ tabbox:drop(active) {
  **************/
 scrollbar {
   transition: all 75ms cubic-bezier(0, 0, 0.2, 1);
-  background-color: #1a1b26;
+  background-color: #15161E;
   box-shadow: none;
   outline: none;
 }
@@ -4178,19 +4178,19 @@ scrollbar > range > trough > slider {
   background-clip: padding-box;
   box-shadow: none;
   outline: none;
-  background-color: #1f2231;
+  background-color: #1A1B26;
 }
 
 scrollbar > range > trough > slider:hover {
-  background-color: #292e42;
+  background-color: #1A1B26;
 }
 
 scrollbar > range > trough > slider:active {
-  background-color: #292e42;
+  background-color: #1A1B26;
 }
 
 scrollbar > range > trough > slider:disabled {
-  background-color: #1a1b26;
+  background-color: #15161E;
 }
 
 scrollbar > range.fine-tune > trough > slider {
@@ -4264,7 +4264,7 @@ scrollbar.overlay-indicator:not(.dragging):not(.hovering).vertical button {
 
 scrollbar.overlay-indicator.dragging,
 scrollbar.overlay-indicator.hovering {
-  background-color: #1a1b26;
+  background-color: #15161E;
 }
 
 scrollbar.horizontal > range > trough > slider {
@@ -4329,7 +4329,7 @@ switch > slider {
   outline: none;
   box-shadow: 0 0 0 0 transparent, 0 3px 2px -2px rgba(0, 0, 0, 0.05),
     0 2px 3px -1px rgba(0, 0, 0, 0.06), 0 1px 4px 0 rgba(0, 0, 0, 0.05);
-  background-color: #1a1b26;
+  background-color: #15161E;
   border: none;
 }
 
@@ -4674,7 +4674,7 @@ scale > trough > highlight {
 }
 
 scale > trough > highlight:disabled {
-  background-color: #1a1b26;
+  background-color: #15161E;
   background-image: image(rgba(233, 233, 237, 0.32));
 }
 
@@ -4694,7 +4694,7 @@ scale > trough > slider {
   transition: all 75ms cubic-bezier(0, 0, 0.2, 1);
   border-radius: 9999px;
   color: #27a1b9;
-  background-color: #1a1b26;
+  background-color: #15161E;
   box-shadow: inset 0 0 0 2px #27a1b9;
 }
 
@@ -4895,7 +4895,7 @@ window.dialog.print drawing {
 window.dialog.print drawing paper {
   padding: 0;
   border: 1px solid rgba(233, 233, 237, 0.12);
-  background-color: #1a1b26;
+  background-color: #15161E;
   color: #e9e9ed;
 }
 
@@ -4947,7 +4947,7 @@ actionbar > revealer > box {
   padding: 6px;
   border-spacing: 6px;
   box-shadow: none;
-  background-color: #1a1b26;
+  background-color: #15161E;
   background-clip: border-box;
   border: none;
   color: #e9e9ed;
@@ -5774,7 +5774,7 @@ window.dialog.message .dialog-action-area > button {
 }
 
 window.dialog.message.background {
-  background-color: #292e42;
+  background-color: #1A1B26;
 }
 
 window.dialog.message box.dialog-vbox.vertical {
@@ -5795,12 +5795,12 @@ window.dialog.message .titlebar {
   min-height: 24px;
   border-style: none;
   box-shadow: inset 0 1px rgba(233, 233, 237, 0.1);
-  background-color: #292e42;
+  background-color: #1A1B26;
   color: #e9e9ed;
 }
 
 window.dialog.message .titlebar:backdrop {
-  background-color: #292e42;
+  background-color: #1A1B26;
   color: rgba(233, 233, 237, 0.7);
 }
 
@@ -5838,7 +5838,7 @@ window.aboutdialog.background.csd scrolledwindow.frame > textview.view > text {
  * AdwMessageDialog *
  ********************/
 window.messagedialog {
-  background-color: #292e42;
+  background-color: #1A1B26;
   color: #e9e9ed;
   padding: 6px;
 }
@@ -6125,7 +6125,7 @@ paned > separator {
 paned > separator.wide {
   min-width: 6px;
   min-height: 6px;
-  background-color: #1a1b26;
+  background-color: #15161E;
   background-image: image(#4b4c5f), image(#4b4c5f);
   background-size: 1px 1px, 1px 1px;
 }
@@ -6195,7 +6195,7 @@ infobar > revealer > box {
 infobar.info > revealer > box,
 infobar.info:hover > revealer > box,
 infobar.info:backdrop > revealer > box {
-  background-color: #1a1b26;
+  background-color: #15161E;
   color: #e9e9ed;
 }
 
@@ -6460,7 +6460,7 @@ colorchooser .popover.osd {
   box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.15),
     0 4px 3px 0 rgba(0, 0, 0, 0.18), 0 1px 6px 0 rgba(0, 0, 0, 0.12),
     inset 0 1px rgba(233, 233, 237, 0.1);
-  background-color: #292e42;
+  background-color: #1A1B26;
 }
 
 colorchooser .popover.osd:backdrop {
@@ -6473,7 +6473,7 @@ colorchooser .popover.osd:backdrop {
  * Misc *
  ********/
 .content-view {
-  background-color: #1a1b26;
+  background-color: #15161E;
 }
 
 /**********************
@@ -6521,12 +6521,12 @@ window.solid-csd {
   margin: 0;
   padding: 2px;
   border-radius: 0;
-  background-color: #1a1b26;
+  background-color: #15161E;
   border: 1px solid #4b4c5f;
 }
 
 window.solid-csd:backdrop {
-  background-color: #1a1b26;
+  background-color: #15161E;
 }
 
 window.ssd {
@@ -6750,7 +6750,7 @@ shortcut > .keycap {
   border: solid 1px rgba(233, 233, 237, 0.12);
   border-radius: 13px;
   box-shadow: inset 0 -2px rgba(233, 233, 237, 0.12);
-  background-color: #292e42;
+  background-color: #1A1B26;
   color: #e9e9ed;
   font-size: smaller;
 }
@@ -6907,16 +6907,16 @@ popover.entry-completion > contents {
 }
 
 .nautilus-window.view {
-  background-color: #1a1b26;
+  background-color: #15161E;
 }
 
 .nautilus-window .sidebar-pane {
-  background-color: #1a1b26;
+  background-color: #15161E;
   color: #e9e9ed;
 }
 
 .nautilus-window .sidebar-pane:backdrop {
-  background-color: #1a1b26;
+  background-color: #15161E;
   transition: none;
 }
 
@@ -7029,7 +7029,7 @@ popover.entry-completion > contents {
 }
 
 .nautilus-window banner > revealer > widget:hover {
-  background-color: #1a1b26;
+  background-color: #15161E;
   border-radius: 9px;
   margin: 9px;
 }
@@ -7101,13 +7101,13 @@ popover.entry-completion > contents {
 
 /* Nautilus Progress Indicator */
 windowhandle box.vertical box.toolbar {
-  background-color: #1a1b26;
+  background-color: #15161E;
   border: none;
   outline: none;
 }
 
 windowhandle box.toolbar menubutton button.toggle {
-  background-color: #1a1b26;
+  background-color: #15161E;
   border: none;
   outline: none;
 }
@@ -7126,7 +7126,7 @@ window.dialog > box > stack > box > box > notebook.frame {
 }
 
 .display-container.card {
-  background-color: #1a1b26;
+  background-color: #15161E;
 }
 
 .small .display-container.card {
@@ -7213,7 +7213,7 @@ weekgrid.current {
 }
 
 popover.events {
-  background-color: #292e42;
+  background-color: #1A1B26;
   padding: 0;
 }
 
@@ -7223,7 +7223,7 @@ popover.events box {
 }
 
 popover.events list {
-  background-color: #1a1b26;
+  background-color: #15161E;
   border-radius: 12px;
 }
 
@@ -7287,7 +7287,7 @@ popover.event-popover > contents {
 }
 
 .search-viewport {
-  background-color: #1a1b26;
+  background-color: #15161E;
 }
 
 .calendar-list {
@@ -7471,7 +7471,7 @@ monthcell {
 }
 
 monthcell:hover:not(.out-of-month):not(.today) {
-  background-color: #1a1b26;
+  background-color: #15161E;
   transition: background-color 200ms;
   color: #e9e9ed;
 }
@@ -8363,8 +8363,8 @@ window > contents > leaflet > box > stack.background {
     to bottom,
     transparent,
     transparent 48px,
-    #1a1b26 48px,
-    #1a1b26
+    #15161E 48px,
+    #15161E
   );
 }
 
@@ -8404,7 +8404,7 @@ window > contents > leaflet > box > stack.background {
 }
 
 .forecast-card separator {
-  background-color: #1a1b26;
+  background-color: #15161E;
 }
 
 #daily-forecast-box > separator:last-child {
@@ -8489,7 +8489,7 @@ image.circular {
 }
 
 #gnome-system-monitor.background.csd {
-  background-color: #1a1b26;
+  background-color: #15161E;
 }
 
 .large-button {
@@ -8621,7 +8621,7 @@ panelframeswitcher {
 
 .frameheader.header {
   min-height: 24px;
-  background-color: #1a1b26;
+  background-color: #15161E;
 }
 
 .frameheader.header > button {
@@ -8742,7 +8742,7 @@ list.music-list {
 
 /* Nicotine+ */
 notebook scrolledwindow treeview.treeview-spacing {
-  background-color: #1a1b26;
+  background-color: #15161E;
 }
 
 .account-switcher-row label {
@@ -8892,7 +8892,7 @@ toast {
   padding: 6px;
   box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1), 0 4px 6px 0 rgba(0, 0, 0, 0.12),
     0 1px 10px 0 rgba(0, 0, 0, 0.1), inset 0 1px rgba(233, 233, 237, 0.1);
-  background-color: #292e42;
+  background-color: #1A1B26;
   color: #e9e9ed;
   border: none;
 }
@@ -9107,7 +9107,7 @@ preferencesgroup > box button.background-preview-button.toggle:checked {
 }
 
 preferencesgroup > box .cutout-button {
-  background-color: #1a1b26;
+  background-color: #15161E;
 }
 
 preferencesgroup > box button.accent-button {
@@ -9460,7 +9460,7 @@ row.expander
 }
 
 .nautilus-window placessidebar > scrolledwindow {
-  background-color: #1a1b26;
+  background-color: #15161E;
   color: #e9e9ed;
   border-radius: 0;
   margin: 0;
@@ -9519,7 +9519,7 @@ leaflet.unfolded
   > range
   > trough
   > slider {
-  background-color: #1f2231;
+  background-color: #1A1B26;
 }
 
 .sidebar-pane
@@ -9560,7 +9560,7 @@ leaflet.unfolded
   > range
   > trough
   > slider:hover {
-  background-color: #292e42;
+  background-color: #1A1B26;
 }
 
 .sidebar-pane
@@ -9601,7 +9601,7 @@ leaflet.unfolded
   > range
   > trough
   > slider:active {
-  background-color: #292e42;
+  background-color: #1A1B26;
 }
 
 .sidebar-pane
@@ -9642,7 +9642,7 @@ leaflet.unfolded
   > range
   > trough
   > slider:disabled {
-  background-color: #1a1b26;
+  background-color: #15161E;
 }
 
 .sidebar-pane
@@ -10492,7 +10492,7 @@ leaflet.unfolded
 }
 
 .content-pane {
-  background-color: #1a1b26;
+  background-color: #15161E;
   color: #e9e9ed;
   border-top-right-radius: 12px;
   box-shadow: inset 0 1px rgba(233, 233, 237, 0.1);
@@ -10559,7 +10559,7 @@ panelthemeselector checkbutton.dark:checked {
 
 themeselector checkbutton.follow,
 panelthemeselector checkbutton.follow {
-  background-image: linear-gradient(to bottom right, #e9e9ed 50%, #292e42 50%);
+  background-image: linear-gradient(to bottom right, #e9e9ed 50%, #1A1B26 50%);
 }
 
 themeselector checkbutton.light,
@@ -10569,7 +10569,7 @@ panelthemeselector checkbutton.light {
 
 themeselector checkbutton.dark,
 panelthemeselector checkbutton.dark {
-  background-color: #292e42;
+  background-color: #1A1B26;
 }
 
 themeselector checkbutton.theme-selector radio,
@@ -10663,7 +10663,7 @@ themeswitcher checkbutton radio:checked:active {
 }
 
 themeswitcher checkbutton.system {
-  background: linear-gradient(-45deg, #1a1b26 50%, #e9e9ed 50%);
+  background: linear-gradient(-45deg, #15161E 50%, #e9e9ed 50%);
 }
 
 themeswitcher checkbutton.light {
@@ -10673,7 +10673,7 @@ themeswitcher checkbutton.light {
 
 themeswitcher checkbutton.dark {
   color: #e9e9ed;
-  background-color: #1a1b26;
+  background-color: #15161E;
 }
 
 /* GTK NAMED COLORS
@@ -10684,7 +10684,7 @@ themeswitcher checkbutton.dark {
 /* text color for entries, views and content in general */
 @define-color theme_text_color #e9e9ed;
 /* widget base background color */
-@define-color theme_bg_color #1a1b26;
+@define-color theme_bg_color #15161E;
 /* text widgets and the like base background color */
 @define-color theme_base_color #323449;
 /* base background color of selections */
@@ -10692,7 +10692,7 @@ themeswitcher checkbutton.dark {
 /* text/foreground color of selections */
 @define-color theme_selected_fg_color #e9e9ed;
 /* base background color of insensitive widgets */
-@define-color insensitive_bg_color #1a1b26;
+@define-color insensitive_bg_color #15161E;
 /* text foreground color of insensitive widgets */
 @define-color insensitive_fg_color rgba(233, 233, 237, 0.5);
 /* insensitive text widgets and the like base background color */
@@ -10702,7 +10702,7 @@ themeswitcher checkbutton.dark {
 /* text color for entries, views and content in general on backdrop windows */
 @define-color theme_unfocused_text_color #e9e9ed;
 /* widget base background color on backdrop windows */
-@define-color theme_unfocused_bg_color #1a1b26;
+@define-color theme_unfocused_bg_color #15161E;
 /* text widgets and the like base background color on backdrop windows */
 @define-color theme_unfocused_base_color #323449;
 /* base background color of selections on backdrop windows */
@@ -10725,8 +10725,8 @@ read if you used those and something break with a version upgrade you're on your
 @define-color wm_unfocused_title rgba(233, 233, 237, 0.7);
 @define-color wm_highlight rgba(233, 233, 237, 0.1);
 @define-color wm_border #0a0a0f;
-@define-color wm_focused_bg #1a1b26;
-@define-color wm_unfocused_bg #1a1b26;
+@define-color wm_focused_bg #15161E;
+@define-color wm_unfocused_bg #15161E;
 @define-color wm_button_icon #e9e9ed;
 @define-color wm_button_focused_bg #262732;
 @define-color wm_button_unfocused_bg #262732;
@@ -10856,21 +10856,21 @@ read if you used those and something break with a version upgrade you're on your
 @define-color error_bg_color #f52a65;
 @define-color error_fg_color #e9e9ed;
 @define-color error_color #f52a65;
-@define-color window_bg_color #1a1b26;
+@define-color window_bg_color #15161E;
 @define-color window_fg_color #e9e9ed;
 @define-color view_bg_color #323449;
 @define-color view_fg_color #e9e9ed;
-@define-color headerbar_bg_color #1a1b26;
+@define-color headerbar_bg_color #15161E;
 @define-color headerbar_fg_color #e9e9ed;
 @define-color headerbar_border_color rgba(233, 233, 237, 0.12);
-@define-color headerbar_backdrop_color #1a1b26;
+@define-color headerbar_backdrop_color #15161E;
 @define-color headerbar_shade_color rgba(233, 233, 237, 0.12);
 @define-color card_bg_color #323449;
 @define-color card_fg_color #e9e9ed;
 @define-color card_shade_color rgba(233, 233, 237, 0.12);
 @define-color dialog_bg_color #323449;
 @define-color dialog_fg_color #e9e9ed;
-@define-color popover_bg_color #292e42;
+@define-color popover_bg_color #1A1B26;
 @define-color popover_fg_color #e9e9ed;
 @define-color shade_color rgba(233, 233, 237, 0.12);
 @define-color scrollbar_outline_color rgba(233, 233, 237, 0.12);

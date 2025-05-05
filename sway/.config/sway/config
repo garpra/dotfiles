@@ -106,6 +106,7 @@ bindsym $mod+c exec $texteditor
 bindsym $mod+space exec rofi -show drun -theme ~/.config/rofi/app-menu.rasi
 bindsym $mod+x exec sh ~/.scripts/menus/powermenu.sh
 bindsym $mod+m exec sh ~/.scripts/menus/music.sh
+bindsym $mod+z exec hyprpicker -a
 
 # Waybar reload
 bindsym $mod+Shift+r exec pkill waybar && waybar & disown
