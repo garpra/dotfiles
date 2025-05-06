@@ -5,7 +5,8 @@ return {
 	config = function()
 		require("bufferline").setup({
 			options = {
-				mode = "buffers", -- atau "tabs"
+				mode = "buffers", -- bisa juga "tabs"
+				separator_style = "slant",
 				offsets = {
 					{
 						filetype = "neo-tree",
@@ -14,8 +15,16 @@ return {
 						separator = true,
 					},
 				},
-				separator_style = "slant", -- "slant" | "thick" | "thin"
+				diagnostics = "nvim_lsp",
+				diagnostics_indicator = function(count, level)
+					local icon = level:match("error") and " " or ""
+					return " " .. icon .. count
+				end,
+				max_name_length = 18,
+				max_prefix_length = 15,
+				truncate_names = true,
 			},
 		})
 	end,
 }
+

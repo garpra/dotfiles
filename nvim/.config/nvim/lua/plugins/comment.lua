@@ -1,13 +1,13 @@
 return {
   "folke/ts-comments.nvim",
-  opts = {},
-  event = "VeryLazy",  
-  opts = {
-    keymaps = {
-      -- non-visual mode (normal)
-      toggle_line = "gcc",
-      -- visual mode
-      toggle_block = "gc",
-    },
-  },
+  event = "BufReadPre",
+  config = function()
+    require("ts-comments").setup({
+      keymaps = {
+        toggle_line = "gcc",
+        toggle_block = "gc",
+      },
+    })
+  end,
 }
+

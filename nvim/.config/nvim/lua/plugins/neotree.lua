@@ -10,28 +10,29 @@ return {
 		require("neo-tree").setup({
 			close_if_last_window = true,
 			popup_border_style = "rounded",
-			enable_git_status = true,
-			enable_diagnostics = true,
+			enable_git_status = true,  -- Menampilkan status git
+			enable_diagnostics = true, -- Menampilkan diagnosa
 			filesystem = {
 				filtered_items = {
-					visible = false,
-					hide_dotfiles = false,
-					hide_gitignored = true,
+					visible = true,         -- Menampilkan file tersembunyi
+					hide_dotfiles = false,  -- Tidak menyembunyikan dotfiles
+					hide_gitignored = true, -- Menyembunyikan file yang diabaikan git
 				},
-				follow_current_file = { enabled = true },
-				hijack_netrw_behavior = "open_default",
+				follow_current_file = { enabled = true },  -- Menyorot file yang sedang dibuka
+				hijack_netrw_behavior = "open_split",  -- Membuka file dalam split, bukan tab baru
 			},
 			window = {
-				width = 30,
+				width = 30,  -- Lebar jendela
 			},
 			event_handlers = {
 				{
 					event = "file_opened",
 					handler = function()
-						require("neo-tree.command").execute({ action = "close" })
+						require("neo-tree.command").execute({ action = "close" })  -- Menutup Neo-tree setelah file dibuka
 					end,
 				},
 			},
 		})
 	end,
 }
+

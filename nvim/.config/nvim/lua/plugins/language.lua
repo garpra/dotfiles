@@ -36,9 +36,21 @@ return {
       local lspconfig = require("lspconfig")
       require("mason-lspconfig").setup_handlers({
         function(server_name)
-          lspconfig[server_name].setup({
+          local opts = {
             capabilities = require("cmp_nvim_lsp").default_capabilities(),
-          })
+          }
+
+          if server_name == "lua_ls" then
+            opts.settings = {
+              Lua = {
+                diagnostics = {
+                  globals = { "vim" },
+                },
+              },
+            }
+          end
+
+          lspconfig[server_name].setup(opts)
         end,
       })
     end,
@@ -68,3 +80,4 @@ return {
     end,
   },
 }
+

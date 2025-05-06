@@ -13,7 +13,6 @@ return {
 		local cmp = require("cmp")
 		local luasnip = require("luasnip")
 
-		-- Load friendly-snippets
 		require("luasnip.loaders.from_vscode").lazy_load()
 
 		luasnip.config.set_config({
@@ -59,9 +58,9 @@ return {
 			sources = cmp.config.sources({
 				{ name = "nvim_lsp" },
 				{ name = "luasnip" },
-				{ name = "buffer" },
 				{ name = "path" },
-				{ name = "codeium" }, -- opsional
+				{ name = "buffer" },
+				{ name = "codeium" }, -- opsional, hapus jika tidak pakai
 			}),
 			experimental = {
 				ghost_text = true,
