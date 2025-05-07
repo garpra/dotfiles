@@ -62,9 +62,6 @@ return {
 				{ name = "buffer" },
 				{ name = "codeium" }, -- opsional, hapus jika tidak pakai
 			}),
-			experimental = {
-				ghost_text = true,
-			},
 		})
 
 		-- Cmdline ":" setup
