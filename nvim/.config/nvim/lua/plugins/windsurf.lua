@@ -4,7 +4,6 @@ return {
 		"nvim-lua/plenary.nvim",
 		"hrsh7th/nvim-cmp",
 	},
-	event = "InsertEnter",
 	config = function()
 		require("codeium").setup({
 			virtual_text = {
