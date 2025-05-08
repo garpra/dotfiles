@@ -25,14 +25,14 @@ window > box {
 tooltip {
   background: @main-bg;
   color: @main-fg;
-  border-radius: 0.42em;
+  border-radius: 5px;
 }
 
 /* === Workspaces & Taskbar === */
 #workspaces,
 #taskbar {
   background: @main-bg;
-  border-radius: 1.25em;
+  border-radius: 5px;
   margin: 0.33em 0;
 }
 
@@ -43,7 +43,7 @@ tooltip {
 
 #workspaces button,
 #taskbar button {
-  border-radius: 1.67em;
+  border-radius: 5px;
 }
 
 #workspaces button {
@@ -99,18 +99,18 @@ tooltip {
 
 /* === Tray === */
 #tray {
-  border-radius: 0.42em;
+  border-radius: 5px;
   margin-right: 1.5em;
   padding: 0 0.42em;
 }
 
 /* === Custom Separators === */
 #custom-l_end {
-  border-radius: 1.25em 0 0 1.25em;
+  border-radius: 5px 0 0 5px;
   margin-left: 0.75em;
 }
 
 #custom-r_end {
-  border-radius: 0 1.25em 1.25em 0;
+  border-radius: 0 5px 5px 0;
   margin-right: 0.75em;
 }
