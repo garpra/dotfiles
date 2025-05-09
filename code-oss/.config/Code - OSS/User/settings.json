@@ -52,5 +52,6 @@
   "editor.lineNumbers": "relative",
   "terminal.integrated.fontSize": 13,
   "workbench.productIconTheme": "material-product-icons",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right"
 }

@@ -26,7 +26,6 @@ end
 
 alias sudo='sudo ' # Memastikan sudo tidak menghapus alias berikutnya
 alias c=clear
-alias mi=micro
 alias vi=nvim
 alias start='sudo systemctl start '
 alias stop='sudo systemctl stop '

@@ -15,7 +15,7 @@ set $right l
 set $term foot
 set $browser floorp
 set $filemanager thunar
-set $texteditor vscodium
+set $texteditor code
 
 #################
 ### AUTOSTART ###
