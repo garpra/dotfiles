@@ -83,3 +83,10 @@ alias jctl="journalctl -p 3 -xb"
 alias clrjctl="sudo journalctl --vacuum-time=1s"
 
 
+
+# pnpm
+set -gx PNPM_HOME "/home/gilang/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end

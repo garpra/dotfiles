@@ -19,7 +19,7 @@ return {
 					hide_gitignored = true, -- Menyembunyikan file yang diabaikan git
 				},
 				follow_current_file = { enabled = true }, -- Menyorot file yang sedang dibuka
-				hijack_netrw_behavior = "open_split", -- Membuka file dalam split, bukan tab bars
+				hijack_netrw_behavior = "open_current", -- Membuka file dalam split, bukan tab bars
 			},
 			window = {
 				width = 30, -- Lebar jendela
