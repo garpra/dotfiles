@@ -9,6 +9,7 @@ opt.swapfile = false
 opt.backup = false
 opt.undofile = true
 
+opt.wrap = true
 opt.smartindent = true
 opt.expandtab = true
 opt.tabstop = 4
@@ -32,7 +33,6 @@ opt.timeoutlen = 500
 opt.splitright = true
 opt.splitbelow = true
 
-if vim.fn.has('unix') == 1 then
-    opt.clipboard = "unnamedplus"  -- Gunakan clipboard sistem pada Linux/Unix
+if vim.fn.has("unix") == 1 then
+	opt.clipboard = "unnamedplus" -- Gunakan clipboard sistem pada Linux/Unix
 end
-
